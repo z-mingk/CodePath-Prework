@@ -4,7 +4,7 @@
 
 Submitted by: **Zhiming Ke**
 
-Time spent: **1** hours spent in total
+Time spent: **2** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/deadpan-reinvented-nose)
 
@@ -53,7 +53,7 @@ continuation of the aboved Gif
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 
-- I did not run into many challenges while creating this submission. The instructions were very well defined and even when I was confused on specific functions such as the setTimeout() function. There were dropdowns where I can find out more information about the function. However, I did run into a problem when I had to implement the game logic where the guesses were handled. I wrote out my nested if statements and it looked correct. The logic made sense but when I ran the game, nothing happened when the guess was correct. I spent around 20 minutes trying to figure out what is wrong but I still found no error in my logic. What I ended up doing is having console.log statements inside and outside the if statements to see where code got up to in the guess function. What I found out is that none of the guesses made it past the comparison check of the if statement. This is when I realized I was using the assignment operator ('=') instead of the comparison operator ('=='). I had been doing a lot of Ocaml, where '=' was used as the comparison operator and had made a very careless mistake. After fixing that error, the game worked like it was supposed to.  
+- I did not run into many challenges while creating this submission. The instructions were very well defined and even when I was confused on specific functions such as the setTimeout() function. There were dropdowns where I can find out more information about the function. However, I did run into a problem when I had to implement the game logic where the guesses were handled. I wrote out my nested if statements and it looked correct. The logic made sense but when I ran the game, nothing happened when the guess was correct. I spent around 20 minutes trying to figure out what is wrong but I still found no error in my logic. What I ended up doing is having console.log statements inside and outside the if statements to see where code got up to in the guess function. What I found out is that none of the guesses made it past the comparison check of the if statement. This is when I realized I was using the assignment operator ('=') instead of the comparison operator ('=='). I had been doing a lot of Ocaml, where '=' was used as the comparison operator and had made a very careless mistake. After fixing that error, the game worked like it was supposed to. Another challenge that I ran into is that the game stops being able to play a tone after refreshing the page. I look at the console and found the error "AudioContext" was not allowed to start. I've spent some time trying to work around this issue but still have not fixed it.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
