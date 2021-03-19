@@ -6,7 +6,7 @@ Submitted by: **Zhiming Ke**
 
 Time spent: **1** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/deadpan-reinvented-nose)
 
 ## Required Functionality
 
@@ -38,8 +38,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-![](your-link-here)
+![](https://i.imgur.com/6957eld.gif)
+
+continuation of the aboved Gif
+![](https://i.imgur.com/9ddSAHp.gif)
+
 
 ## Reflection Questions
 
